@@ -1,1 +1,1 @@
-export const multiplyBy = (x: number): Function => (y: number): number => y * x;
+export const multiplyBy = (x: number) => (y: number): number => y * x;
