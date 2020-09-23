@@ -1,5 +1,5 @@
 {
-  "name": "functionals",
+  "name": "@vultuk/functionals",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "lint": "tslint -p tsconfig.json",
     "test": "jest --config jestconfig.json",
     "buildts": "tsc",
-    "prepare": "npm run build",
+    "prepare": "npm run buildts",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
