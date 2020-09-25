@@ -9,5 +9,4 @@ test('String/Split', () => {
   const splitBySlash = split('/');
   expect(splitBySlash('my/folder/name')).toEqual(['my', 'folder', 'name']);
   expect(splitBySlash('path/to/url')).toEqual(['path', 'to', 'url']);
-
-})
+});
