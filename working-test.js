@@ -8,6 +8,8 @@ const workingObjArr = Object.freeze([
   {slug: "Item Five", value: 19, description: "Something like five", meta: {}},
 ]);
 
+// Hello
+
 // Create a function to allow us to filter down an object to just the keys we want
 const filters = filterKeys(['slug','value']);
 
